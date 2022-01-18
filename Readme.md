@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/33/user/1974403).
-* Наставник: `Сергей Рожков`.
+* Студент: [Павел Лукин](https://up.htmlacademy.ru/htmlcss/33/user/1974403).
+* Наставник: [Сергей Рожков](https://htmlacademy.ru/profile/id1069033).
 
 ---
 
