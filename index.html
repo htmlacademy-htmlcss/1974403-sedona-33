@@ -5,8 +5,131 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header class="page-header">
+      <nav class="navigation">
+        
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+            <img  class="logo1" src="images/logo1.svg">
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+        </ul>
+        <ul class="navigation-list">
+          <li class="navigation-item navigation-user">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Корзина</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Хочу сюда</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+    <main class="main-index">
+      <h1 class="visually-hidden">Приглашение в городок Седона.</h1>
+      <img class="logo2" src="" alt="Приветствие на сайте Седона">
+      
+      <!-- не понял нужно ли прописывать класс для h2-->
+      <h2>Седона — небольшой городок в Аризоне,<br>
+        заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+       
+<section class="advantages">
+  <h2 class="visually-hidden">Преимущества</h2>
+  <table class="table-description"></table>
+  <tr>
+    <td><h3 class="advantages-table">Настоящий городок</h3><p>Седона — не аттракцион для туристов, там течёт 
+      своя жизнь</p></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!-- нужно определить классы или атрибуты-->
+    <td><h3 class="advantages-table">Жилье</h3><p>Рекомендуем пожить 
+      в настоящем мотеле, 
+      всё как в кино!</p></td>
+      <td><h3 class="advantages-table">Еда</h3><p>Всегда заказывайте
+        топовый фирменный бургер, вы не разочаруетесь!</p></td>
+        <td><h3 class="advantages-table">Сувениры</h3><p>Не только китайского, 
+          но и настоящего местного производства!</p></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><h3 class="advantages-table">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3><p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p></td>
+  </tr>
+  <tr>
+    <td><h3 class="advantages-table">Небольшая площадь</h3><p>Все достопримечательности 
+        находятся очень близко</p></td>
+    <td><h3 class="advantages-table">Красивая дорога</h3><p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p></td>
+    <td><h3 class="advantages-table">Мало туристов</h3><p>Большинство едет в Гранд Каньон и толпится там</p></td>
+  </tr>
+
+<!--Секции ниже таблицы, бронь и email выглядят одинаково-->
+</section>
+<section class="below_table">
+  <h2>Заинтересовались ?</h2>
+  <p>Укажите предполагаемые даты поездки,<br>
+    и мы покажем вам лучшие предложения гостиниц в Седоне
+    </p>
+    <a class="button button-all" href="catalog.html">Поиск гостиницы в Седоне</a>
+</section>
+<section>
+  <h2>Подпишитесь на рассылку</h2>
+  <p>Только полезная информация и никакого спама,<br>
+    честное бойскаутское!
+    </p>
+    <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+      <input type="text" name="e-mail" placeholder="Ваш e-mail">
+      <button class="button" type="submit">Подписаться</button>  
+    </form>
+    </main>
+    <footer class="page-footer">
+      <section class="footer-social">
+        <ul class="footer-social-list">
+          <li>
+          <a class="button" href="#">
+            <span class="visually-hidden">Твиттер</span>
+          </a>
+          </li>
+          <li>
+            <a class="button" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+            </li>
+            <li>
+              <a class="button" href="#">
+                <span class="visually-hidden">YouTube</span>
+              </a>
+              </li>
+        </ul>
+  
+  
+      </section>
+      <section class="footer-contacts-adress-phone">
+      <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
+    </section>
+    <section><a href="#"></a><pre>.html
+                                    academy
+    </pre>
+    
+    </section>
+                                    
+    </footer>
+
 
   </body>
 </html>
+
