@@ -8,7 +8,9 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img  class="logo1" src="images/logo1.svg">
+        <a class="navigation-logo" href="index.html">
+          <img class="page-header-logo" alt="Логотип сайта города Седона" src="">
+        </a>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
@@ -40,7 +42,7 @@
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Приглашение в городок Седона.</h1>
-      <img class="logo2" src="" alt="Приветствие на сайте Седона">
+      <img class="logo2" src="#" alt="Приветствие на сайте Седона">
       
       <!-- не понял нужно ли прописывать класс для h2-->
       <h2>Седона — небольшой городок в Аризоне,<br>
@@ -49,14 +51,14 @@
        
 <section class="advantages">
   <h2 class="visually-hidden">Преимущества</h2>
-  <table class="table-description"></table>
-  <tr>
+  <table class="table-description">
+  <tr class="table-section-1">
     <td><h3 class="advantages-table">Настоящий городок</h3><p>Седона — не аттракцион для туристов, там течёт 
       своя жизнь</p></td>
     <td></td>
     <td></td>
   </tr>
-  <tr>
+  <tr class="table-section-2">
     <!-- нужно определить классы или атрибуты, пометил для себя-->
     <td><h3 class="advantages-table">Жилье</h3><p>Рекомендуем пожить 
       в настоящем мотеле, 
@@ -77,9 +79,11 @@
     <td><h3 class="advantages-table">Красивая дорога</h3><p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p></td>
     <td><h3 class="advantages-table">Мало туристов</h3><p>Большинство едет в Гранд Каньон и толпится там</p></td>
   </tr>
+</table>
+  </section>
 
 <!--Секции ниже таблицы, бронь и email выглядят одинаково-->
-</section>
+
 <section class="below_table">
   <h2>Заинтересовались ?</h2>
   <p>Укажите предполагаемые даты поездки,<br>
@@ -97,10 +101,11 @@
       <input type="text" name="e-mail" placeholder="Ваш e-mail">
       <button class="button" type="submit">Подписаться</button>  
     </form>
-
+</section>
     </main>
 <!--Footer с иконками-->
     <footer class="page-footer">
+      <h6 class="visually-hidden">Как связаться?</h6>
       <section class="footer-social">
         <ul class="footer-social-list">
           <li>
@@ -119,13 +124,16 @@
               </a>
               </li>
         </ul>
+        </section>
   
   
-      </section>
+      
       <section class="footer-contacts-adress-phone">
+        <h6 class="visually-hidden">Наш телефон</h6>
       <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
     </section>
     <section>
+      <h6 class="visually-hidden">Сайт HTML Academy</h6>
       <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
     
     
