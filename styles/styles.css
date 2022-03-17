@@ -336,6 +336,7 @@ body {
 .subscribe {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 411px;
   padding: 94px 200px 94px 200px;
 
@@ -916,7 +917,7 @@ body {
 }
 
 .catalog-subscribe {
-  padding: 73px 150px 140px 150px;
+  padding: 70px 150px 140px 150px;
 
   color: #000000;
 
@@ -933,7 +934,7 @@ body {
 }
 
 .subscribe-field {
-  min-width: 600px;
+  min-width: 606px;
   min-height: 60px;
   padding: 0 19px 0 22px;
 
@@ -1019,7 +1020,7 @@ body {
 .button-load-more {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   padding: 30px;
 
   border-top: 1px solid #e6e6e6;
